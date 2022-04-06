@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-image: radial-gradient(circle, #009930, #07E64D);
+            margin-top: 120px;
+            color: wheat;
+        }
+        
+        .cad {
+            border-radius: 20px;
+            margin: auto;
+            text-align: center;
+            height: 400px;
+            width: 300px;
+            background-image: linear-gradient(#E6211E, #E60C07);
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px auto;
+        }
+        
+        input {
+            border: none;
+            outline: none;
+            margin-top: 30px;
+            padding: 4% 4%;
+            border-radius: 15px;
+        }
+        
+        button {
+            background-image: linear-gradient(to right, #009930, #07E64D);
+            border: none;
+            color: white;
+            padding: 4% 23%;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cad">
+        <form action="#"></form>
+        <br><br><br><br>
+        <label for="Nome">Nome</label>
+        <br>
+        <input type="text" name="Nome" id="Nome">
+        <br><br>
+        <label for="AnoNascimento">Ano Nascimento</label>
+        <br>
+        <input type="number" name="AnoNascimento" id="AnoNascimento">
+        <br><br>
+        <button id="calular">Calcular</button>
+        <br><br><br><br>
+    </div>
+    </form>
+
+    <script src="./js/algoritimo3.js"></script>
+</body>
+
+</html>
